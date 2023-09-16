@@ -24,6 +24,7 @@
     <ProjectGuid>{37c08eae-589a-402c-b7d1-dd3801a2ffc9}</ProjectGuid>
     <RootNamespace>SwapNumbersByFuncAndReference</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Study.SwapNumbersByFuncAndReference</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
