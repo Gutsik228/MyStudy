@@ -12,7 +12,6 @@ int main()
     setlocale(LC_ALL, "RU");
     int magic = rand() % 10;
     int option;
-    int NumUser;
     cout << "Привет, ты можешь поиграть в игру Волшебные числа" << endl;
     do
     {
@@ -20,11 +19,9 @@ int main()
         cout << "1. Сгенерировать случайное число" << endl;
         cout << "2. Проверить совпало ли твое число с сгенерированным" << endl;
         cout << "3. Закончить игру" << endl;
-        do
-        {
-            cout << "Введите свой опцию" << endl;
-            cin >> option;
-        } while (option < 1 || option > 3);
+        
+        cout << "Введите свой опцию" << endl;
+        cin >> option;
 
         switch (option)
         {
@@ -47,7 +44,7 @@ void Play(int magic)
     int x;
     for(int i = 0; i < 10; i++)
     {
-        cout << "Введите число, которое ты хочешь, у тебя есть " << 10 - i << " " << "Попыток" << endl;
+        cout << "Введите число, которое ты хочешь от 0 до 9, у тебя есть " << 10 - i << " " << "Попыток" << endl;
         cin >> x;
         if(x == magic)
         {
