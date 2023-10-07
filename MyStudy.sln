@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SmallProject.MiniGame", "Sm
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.CopyArrByFunc", "Study.CopyArrByFunc\Study.CopyArrByFunc.vcxproj", "{220CC9D2-A7A1-4198-8081-9F4762373804}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.AddNewValueInStaticArr", "Study.AddNewValueInStaticArr\Study.AddNewValueInStaticArr.vcxproj", "{0701F3A8-2784-4EE5-A12B-22DE9B4711A8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -97,6 +99,14 @@ Global
 		{220CC9D2-A7A1-4198-8081-9F4762373804}.Release|x64.Build.0 = Release|x64
 		{220CC9D2-A7A1-4198-8081-9F4762373804}.Release|x86.ActiveCfg = Release|Win32
 		{220CC9D2-A7A1-4198-8081-9F4762373804}.Release|x86.Build.0 = Release|Win32
+		{0701F3A8-2784-4EE5-A12B-22DE9B4711A8}.Debug|x64.ActiveCfg = Debug|x64
+		{0701F3A8-2784-4EE5-A12B-22DE9B4711A8}.Debug|x64.Build.0 = Debug|x64
+		{0701F3A8-2784-4EE5-A12B-22DE9B4711A8}.Debug|x86.ActiveCfg = Debug|Win32
+		{0701F3A8-2784-4EE5-A12B-22DE9B4711A8}.Debug|x86.Build.0 = Debug|Win32
+		{0701F3A8-2784-4EE5-A12B-22DE9B4711A8}.Release|x64.ActiveCfg = Release|x64
+		{0701F3A8-2784-4EE5-A12B-22DE9B4711A8}.Release|x64.Build.0 = Release|x64
+		{0701F3A8-2784-4EE5-A12B-22DE9B4711A8}.Release|x86.ActiveCfg = Release|Win32
+		{0701F3A8-2784-4EE5-A12B-22DE9B4711A8}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +120,7 @@ Global
 		{733F1955-7D90-44A9-80C6-4E74D674A6B5} = {FE5FB20C-3F97-48AE-BD90-EA6119716DCC}
 		{E5EB03A3-F971-49FD-A731-534B88EA647D} = {FE5FB20C-3F97-48AE-BD90-EA6119716DCC}
 		{220CC9D2-A7A1-4198-8081-9F4762373804} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
+		{0701F3A8-2784-4EE5-A12B-22DE9B4711A8} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {980EC4DC-3721-432F-8473-0341F6356345}
