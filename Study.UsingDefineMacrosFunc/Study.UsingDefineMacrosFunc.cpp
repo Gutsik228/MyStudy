@@ -1,5 +1,6 @@
 #include <iostream>
 #define PI 3.14
+#define DEBAG
 #define Prod(a, b)((a) * (b))
 using namespace std;
 

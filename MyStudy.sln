@@ -33,6 +33,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.PointerOnFunc", "Stud
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.UsingDefineMacrosFunc", "Study.UsingDefineMacrosFunc\Study.UsingDefineMacrosFunc.vcxproj", "{A1F7C4F6-E2A1-4A89-BF24-7235125D3D31}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.OOP", "Study.OOP\Study.OOP.vcxproj", "{405775F9-BA30-4259-83A3-0867C449976F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -137,6 +139,14 @@ Global
 		{A1F7C4F6-E2A1-4A89-BF24-7235125D3D31}.Release|x64.Build.0 = Release|x64
 		{A1F7C4F6-E2A1-4A89-BF24-7235125D3D31}.Release|x86.ActiveCfg = Release|Win32
 		{A1F7C4F6-E2A1-4A89-BF24-7235125D3D31}.Release|x86.Build.0 = Release|Win32
+		{405775F9-BA30-4259-83A3-0867C449976F}.Debug|x64.ActiveCfg = Debug|x64
+		{405775F9-BA30-4259-83A3-0867C449976F}.Debug|x64.Build.0 = Debug|x64
+		{405775F9-BA30-4259-83A3-0867C449976F}.Debug|x86.ActiveCfg = Debug|Win32
+		{405775F9-BA30-4259-83A3-0867C449976F}.Debug|x86.Build.0 = Debug|Win32
+		{405775F9-BA30-4259-83A3-0867C449976F}.Release|x64.ActiveCfg = Release|x64
+		{405775F9-BA30-4259-83A3-0867C449976F}.Release|x64.Build.0 = Release|x64
+		{405775F9-BA30-4259-83A3-0867C449976F}.Release|x86.ActiveCfg = Release|Win32
+		{405775F9-BA30-4259-83A3-0867C449976F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -154,6 +164,7 @@ Global
 		{91D34E5B-3811-46DF-B24D-56F23854225A} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 		{3CBE5794-BAB7-4188-86DC-8259EB59BFF5} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 		{A1F7C4F6-E2A1-4A89-BF24-7235125D3D31} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
+		{405775F9-BA30-4259-83A3-0867C449976F} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {980EC4DC-3721-432F-8473-0341F6356345}
