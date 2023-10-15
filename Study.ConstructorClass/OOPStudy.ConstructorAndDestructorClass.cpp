@@ -66,8 +66,9 @@ private:
 public:
      MyClass(int size)
      {
+         this->Size = size;
          arr = new int[size];
-         cout << "Вызвался конструктор, начальные действия класса по умолчанию" << endl;
+         cout << "Вызвался конструктор, начальные действия класса по умолчанию" << this << endl;
          for(int i = 0; i < size; i++)
          {
              arr[i] = i;
@@ -78,22 +79,36 @@ public:
          for (int i = 0; i < size; i++)
          {
              cout << arr[i] << " ";
-         }
-         cout << "Коструктор закончился" << endl;
+         } 
+         cout << "Коструктор закончился" << this << endl;
          
      }
+
+     MyClass(const MyClass &other)
+     {
+         this->Size = other.Size;
+         this->arr = new int[other.Size];
+         for(int i = 0 ; i < Size; i ++)
+         {
+             this->arr[i] = other.arr[i];
+         }
+         cout << "Вызвался конструктор копирования" << this << endl;
+     }
+
     ~MyClass()
     {
         delete[] arr;
-        cout << "Вызвался деструктор и почистил память" << endl;
+        cout << "Вызвался деструктор и почистил память" << this << endl;
     }
+private:
+    int Size;
 };
 
 int main()
 {
     setlocale(LC_ALL, "RU");
     MyClass bebra(5);
-
+    MyClass bebra2(bebra);
     
     return 0;
 }
