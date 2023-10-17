@@ -56,6 +56,7 @@ private:
 class Point
 {
 public:
+    friend void ChangeValue(Point& classPoint);
 
     Point(double x, double y)
     {
@@ -88,11 +89,48 @@ public:
         return temp;
     }
 
+    Point& operator ++()
+    {
+        this->x++;
+        this->y++;
+
+        return *this;
+    }
+
+    Point operator ++(int value)
+    {
+        Point temp = *this;
+
+        this->x++;
+        this->y++;
+
+        return temp;
+    }
+
+    int& operator[](int index)
+    {
+        return arr[index];
+    }
+    
+    void ShowInfo()
+    {
+        cout << "X = " << x << " " << "Y = " << y << endl;
+    }
 
 private:
     double x;
     double y;
+    int arr[5] {1, 2, 3, 4, 5};
+
+    
 };
+
+void ChangeValue(Point& classPoint)
+{
+    classPoint.x = -1;
+    classPoint.y = -1;
+
+}
 
 int main() {
     setlocale(LC_ALL, "RU");
@@ -100,11 +138,10 @@ int main() {
     Point a(5, 5);
     Point b(1, 5);
 
-    bool result = a == b;
+    ChangeValue(a);
 
-    Point c = a + b;
+    a.ShowInfo();
+    
 
-    Point d = a - b;
-
-    cout << result;
+    
 }
