@@ -5,7 +5,7 @@ class Apple
 {
 public:
     static int count;
-    Apple(int weight, string color) 
+    Apple(int weight, string color)
     {
         this->weight = weight;
         this->color = color;
@@ -37,12 +37,12 @@ public:
         return id;
     }
 
-    static int GetCountUsers() 
+    static int GetCountUsers()
     {
         return count;
     }
 
-    static void ChangeName(User& user, string name) 
+    static void ChangeName(User& user, string name)
     {
         user.name = name;
     }
@@ -68,7 +68,7 @@ int main() {
     User user2(16, "Russia", "Valik");
     User user3(17, "Russia", "Petik");
 
-    cout <<"User name: " << user.GetName()<< " " << "User id: " << user.GetId() << endl;
+    cout << "User name: " << user.GetName() << " " << "User id: " << user.GetId() << endl;
     cout << "User name: " << user2.GetName() << " " << "User id: " << user2.GetId() << endl;
     cout << "User name: " << user3.GetName() << " " << "User id: " << user3.GetId() << endl;
 
