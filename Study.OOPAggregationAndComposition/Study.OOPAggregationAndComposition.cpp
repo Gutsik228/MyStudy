@@ -45,7 +45,7 @@ int main() // Исправляем точку входа
 {
     Human human;
     human.Think();
-    
+
     cout << "Object color on human:" << " " << human.GetColorObjectOnClass();
-    
+
 }
