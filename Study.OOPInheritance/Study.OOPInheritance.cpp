@@ -26,6 +26,11 @@ public:
     {
         cout << "name: " << name << endl;
     }
+
+    ~Student()
+    {
+        cout << "Вызвался деструктор класса студент" << endl;
+    }
 };
 
 class Professor : public Human
@@ -40,10 +45,10 @@ class ExtraStudent : public Student
 public:
     ExtraStudent()
     {
-        name = " ";
+        name = "Пустое имя";
     }
 
-    ExtraStudent(string name)
+    ExtraStudent(string name) : Student(name)
     {
         this->name = name;
     }
@@ -51,15 +56,20 @@ public:
     {
         cout << "name: " <<  name << endl;
     }
+    ~ExtraStudent()
+    {
+        cout << "Вызвался деструктор класса экстра студент" << endl;
+    }
 };
 
 int main()
 {
-    
-    Student student("Petya");
+    setlocale(LC_ALL, "Ru");
+
+    Student student;
     ExtraStudent ExStudent("Vanya");
 
-    student.Info();                           
+    student.Info();
 
     ExStudent.Info();
 }
