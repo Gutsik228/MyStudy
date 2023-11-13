@@ -51,6 +51,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.OOPInheritance", "Stu
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.OOPPolymorphism", "Study.OOPPolymorphism\Study.OOPPolymorphism.vcxproj", "{A59DD265-BF1D-45FB-AA86-80CDB76FA840}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.OOPDelegateAndVirtualMethod", "Study.OOPDelegateAndVirtualMethod\Study.OOPDelegateAndVirtualMethod.vcxproj", "{9067D587-59DE-4F0C-A507-E94B133BE6B1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -227,6 +229,14 @@ Global
 		{A59DD265-BF1D-45FB-AA86-80CDB76FA840}.Release|x64.Build.0 = Release|x64
 		{A59DD265-BF1D-45FB-AA86-80CDB76FA840}.Release|x86.ActiveCfg = Release|Win32
 		{A59DD265-BF1D-45FB-AA86-80CDB76FA840}.Release|x86.Build.0 = Release|Win32
+		{9067D587-59DE-4F0C-A507-E94B133BE6B1}.Debug|x64.ActiveCfg = Debug|x64
+		{9067D587-59DE-4F0C-A507-E94B133BE6B1}.Debug|x64.Build.0 = Debug|x64
+		{9067D587-59DE-4F0C-A507-E94B133BE6B1}.Debug|x86.ActiveCfg = Debug|Win32
+		{9067D587-59DE-4F0C-A507-E94B133BE6B1}.Debug|x86.Build.0 = Debug|Win32
+		{9067D587-59DE-4F0C-A507-E94B133BE6B1}.Release|x64.ActiveCfg = Release|x64
+		{9067D587-59DE-4F0C-A507-E94B133BE6B1}.Release|x64.Build.0 = Release|x64
+		{9067D587-59DE-4F0C-A507-E94B133BE6B1}.Release|x86.ActiveCfg = Release|Win32
+		{9067D587-59DE-4F0C-A507-E94B133BE6B1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -253,6 +263,7 @@ Global
 		{E76FCA7D-01C5-4B0D-8520-442AA6BE1D2D} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 		{1AAF2C47-166A-48C5-973A-C497ACF431C8} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 		{A59DD265-BF1D-45FB-AA86-80CDB76FA840} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
+		{9067D587-59DE-4F0C-A507-E94B133BE6B1} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {980EC4DC-3721-432F-8473-0341F6356345}

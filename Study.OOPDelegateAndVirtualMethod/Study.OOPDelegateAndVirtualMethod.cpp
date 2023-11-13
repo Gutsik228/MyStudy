@@ -36,7 +36,7 @@ private:
 class Message
 {
 public:
-    Message(string text) 
+    Message(string text)
     {
         this->text = text;
     };
@@ -54,7 +54,7 @@ private:
 class BrMes : public Message
 {
 public:
-    BrMes(string text):Message(text)
+    BrMes(string text) :Message(text)
     {
 
     }
@@ -69,15 +69,15 @@ public:
 class Printer
 {
 public:
-    void PrintString(Message *mes)
+    void PrintString(Message* mes)
     {
         cout << mes->GetText();
     }
 };
 
-int main() 
+int main()
 {
-    Human human("Petya", 32, 60); 
+    Human human("Petya", 32, 60);
 
     human.PrintInfo();
 
