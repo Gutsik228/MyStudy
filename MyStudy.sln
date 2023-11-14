@@ -55,6 +55,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.OOPDelegateAndVirtual
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.OOPMultipleInheritance", "Study.OOPMultipleInheritance\Study.OOPMultipleInheritance.vcxproj", "{6480FD3A-5940-4D4B-A595-31709C051DDE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.OOPInterface", "Study.OOPInterface\Study.OOPInterface.vcxproj", "{BA83C7A0-033E-4661-9D6C-9014AD045187}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -247,6 +249,14 @@ Global
 		{6480FD3A-5940-4D4B-A595-31709C051DDE}.Release|x64.Build.0 = Release|x64
 		{6480FD3A-5940-4D4B-A595-31709C051DDE}.Release|x86.ActiveCfg = Release|Win32
 		{6480FD3A-5940-4D4B-A595-31709C051DDE}.Release|x86.Build.0 = Release|Win32
+		{BA83C7A0-033E-4661-9D6C-9014AD045187}.Debug|x64.ActiveCfg = Debug|x64
+		{BA83C7A0-033E-4661-9D6C-9014AD045187}.Debug|x64.Build.0 = Debug|x64
+		{BA83C7A0-033E-4661-9D6C-9014AD045187}.Debug|x86.ActiveCfg = Debug|Win32
+		{BA83C7A0-033E-4661-9D6C-9014AD045187}.Debug|x86.Build.0 = Debug|Win32
+		{BA83C7A0-033E-4661-9D6C-9014AD045187}.Release|x64.ActiveCfg = Release|x64
+		{BA83C7A0-033E-4661-9D6C-9014AD045187}.Release|x64.Build.0 = Release|x64
+		{BA83C7A0-033E-4661-9D6C-9014AD045187}.Release|x86.ActiveCfg = Release|Win32
+		{BA83C7A0-033E-4661-9D6C-9014AD045187}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -275,6 +285,7 @@ Global
 		{A59DD265-BF1D-45FB-AA86-80CDB76FA840} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 		{9067D587-59DE-4F0C-A507-E94B133BE6B1} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 		{6480FD3A-5940-4D4B-A595-31709C051DDE} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
+		{BA83C7A0-033E-4661-9D6C-9014AD045187} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {980EC4DC-3721-432F-8473-0341F6356345}
