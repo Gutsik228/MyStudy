@@ -59,6 +59,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.OOPInterface", "Study
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.OOPVirtualInheritance", "Study.OOPVirtualInheritance\Study.OOPVirtualInheritance.vcxproj", "{4621B4DB-15A1-42B0-A385-4ADE21FA73EE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.TryCatchException", "Study.TryCatchException\Study.TryCatchException.vcxproj", "{D676F2AC-7B7B-4ACA-B890-ABB00EF733EB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -267,6 +269,14 @@ Global
 		{4621B4DB-15A1-42B0-A385-4ADE21FA73EE}.Release|x64.Build.0 = Release|x64
 		{4621B4DB-15A1-42B0-A385-4ADE21FA73EE}.Release|x86.ActiveCfg = Release|Win32
 		{4621B4DB-15A1-42B0-A385-4ADE21FA73EE}.Release|x86.Build.0 = Release|Win32
+		{D676F2AC-7B7B-4ACA-B890-ABB00EF733EB}.Debug|x64.ActiveCfg = Debug|x64
+		{D676F2AC-7B7B-4ACA-B890-ABB00EF733EB}.Debug|x64.Build.0 = Debug|x64
+		{D676F2AC-7B7B-4ACA-B890-ABB00EF733EB}.Debug|x86.ActiveCfg = Debug|Win32
+		{D676F2AC-7B7B-4ACA-B890-ABB00EF733EB}.Debug|x86.Build.0 = Debug|Win32
+		{D676F2AC-7B7B-4ACA-B890-ABB00EF733EB}.Release|x64.ActiveCfg = Release|x64
+		{D676F2AC-7B7B-4ACA-B890-ABB00EF733EB}.Release|x64.Build.0 = Release|x64
+		{D676F2AC-7B7B-4ACA-B890-ABB00EF733EB}.Release|x86.ActiveCfg = Release|Win32
+		{D676F2AC-7B7B-4ACA-B890-ABB00EF733EB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -297,6 +307,7 @@ Global
 		{6480FD3A-5940-4D4B-A595-31709C051DDE} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 		{BA83C7A0-033E-4661-9D6C-9014AD045187} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 		{4621B4DB-15A1-42B0-A385-4ADE21FA73EE} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
+		{D676F2AC-7B7B-4ACA-B890-ABB00EF733EB} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {980EC4DC-3721-432F-8473-0341F6356345}
