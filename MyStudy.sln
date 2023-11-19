@@ -67,6 +67,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.Namespace", "Study.Na
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.OPPTemplateClass", "Study.OPPTemplateClass\Study.OPPTemplateClass.vcxproj", "{9A1A49E9-5452-4F27-970E-04FDA1DE7961}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Study.OOPSmartPointer", "Study.OOPSmartPointer\Study.OOPSmartPointer.vcxproj", "{F484EFDD-1364-41DE-84F8-087A3C9AEF31}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -307,6 +309,14 @@ Global
 		{9A1A49E9-5452-4F27-970E-04FDA1DE7961}.Release|x64.Build.0 = Release|x64
 		{9A1A49E9-5452-4F27-970E-04FDA1DE7961}.Release|x86.ActiveCfg = Release|Win32
 		{9A1A49E9-5452-4F27-970E-04FDA1DE7961}.Release|x86.Build.0 = Release|Win32
+		{F484EFDD-1364-41DE-84F8-087A3C9AEF31}.Debug|x64.ActiveCfg = Debug|x64
+		{F484EFDD-1364-41DE-84F8-087A3C9AEF31}.Debug|x64.Build.0 = Debug|x64
+		{F484EFDD-1364-41DE-84F8-087A3C9AEF31}.Debug|x86.ActiveCfg = Debug|Win32
+		{F484EFDD-1364-41DE-84F8-087A3C9AEF31}.Debug|x86.Build.0 = Debug|Win32
+		{F484EFDD-1364-41DE-84F8-087A3C9AEF31}.Release|x64.ActiveCfg = Release|x64
+		{F484EFDD-1364-41DE-84F8-087A3C9AEF31}.Release|x64.Build.0 = Release|x64
+		{F484EFDD-1364-41DE-84F8-087A3C9AEF31}.Release|x86.ActiveCfg = Release|Win32
+		{F484EFDD-1364-41DE-84F8-087A3C9AEF31}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -341,6 +351,7 @@ Global
 		{EA069E4E-DEBC-41CC-BA6E-53CD5793A17B} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 		{67E623FB-E83A-445D-BE13-E3B6076E1071} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 		{9A1A49E9-5452-4F27-970E-04FDA1DE7961} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
+		{F484EFDD-1364-41DE-84F8-087A3C9AEF31} = {8FDF4FEB-DE22-43F1-A109-772EB2496123}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {980EC4DC-3721-432F-8473-0341F6356345}
