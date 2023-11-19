@@ -1,5 +1,5 @@
 #include <iostream>
-#include <memory>
+#include <memory> //Подключение необходимой библиотеки
 #include <string>
 
 template<typename T>
