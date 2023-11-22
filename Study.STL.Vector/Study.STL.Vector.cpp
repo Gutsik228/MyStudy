@@ -3,6 +3,7 @@
 
 int main()
 {
+	setlocale(LC_ALL, "RU");
 	std::vector<int>  v;
 
 	//Способы инициализации вектора
